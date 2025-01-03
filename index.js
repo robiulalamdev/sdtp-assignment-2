@@ -136,4 +136,4 @@ const handleSearch = async (search = "") => {
     });
 };
 
-handleSearch("margarita");
+handleSearch("a");
