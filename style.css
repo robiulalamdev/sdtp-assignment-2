@@ -1,0 +1,29 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Inter, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.search-container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+#foods-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  #foods-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cart-item {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
